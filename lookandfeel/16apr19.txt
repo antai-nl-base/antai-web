@@ -1,0 +1,8 @@
+* use the features.html as a template to work the look and feel page1.
+  make it as responsive as possible.
+* work on general stuff now, animations comes later
+* proof of concept for animation:
+	- the matrix brackets stay intact
+	- 1 goes to 0, 0 to 1 and so on in counter clockwise
+	- strategy includes making this into a complete css
+	  design so that, it can be animated at will

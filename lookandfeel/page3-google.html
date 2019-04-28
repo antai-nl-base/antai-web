@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>
+            Look and feel Antai-app
+        </title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Custom styles for this template -->
+        <link href="./static/page1.css" rel="stylesheet">
+        <!--Anychart pie chart API-->
+        <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+        <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>        
+        <!--JQuery+Popper+Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            anychart.onDocumentReady(function() {
+
+            // set the data (in kilobytes)
+            var data = [
+            {x: "Android device configuration", value: 23.6},
+            {x: "Blogger", value: 4.5},
+            {x: "Bookmarks", value: 0.437},
+            {x: "Calender", value: 39},
+            {x: "Chrome", value:4000},
+            {x: "Cloud print", value: 0.175},
+            {x: "Contacts", value: 184.5},
+            {x: "Drive", value: 156700},
+            {x: "Google plus", value: 15.34},
+            {x: "My buissness", value: 9.2},
+            {x: "Google Play", value: 83.2},
+            {x: "Google Photos", value: 7200000},
+            {x: "Google Play Books", value: 13.4},
+            {x: "Google Play Game services", value: 2400},
+            {x: "Google Play Movies", value: 0.0010},
+            {x: "Google Play Store", value: 280.8},
+            {x: "Google Shopping", value: 12.4},
+            {x: "Google Stream+", value: 7200},
+            {x: "G Suite Marketplace", value: 0.373},
+            {x: "Hangouts", value: 495.5},
+            {x: "Home App", value: 0.148},
+            {x: "Keep", value: 1500},
+            {x: "Location History", value: 262700},
+            {x: "Mail", value: 1000000},
+            {x: "Maps", value: 19.6},
+            {x: "Maps - your places", value: 44.7},
+            {x: "My Activity", value: 91900},
+            {x: "News", value: 4.2},
+            {x: "Profile", value: 519.7},
+            {x: "Purchases - reservations", value: 33.3},
+            {x: "Reminders", value: 5.7},
+            {x: "Saved", value: 0.555},
+            {x: "Search contributions", value: 1.3},
+            {x: "Shopping lists", value: 0.047},
+            {x: "Tasks", value: 1.5},
+            {x: "Youtube", value: 34200},
+            ];
+
+            // create the chart
+            var chart = anychart.pie();
+
+            // set the chart title
+            chart.title("Your data with Google (in kB)");
+
+            // add the data
+            chart.data(data);
+
+            // display the chart in the container
+            chart.container('piechart');
+            chart.draw();
+            });     
+        </script>
+    </head> 
+
+    <body>
+        <div class="overflow-hidden p-auto p-md-auto m-md-auto bg-light smartphone">
+            <div id="piechart"></div>
+        </div>
+        <div class="bg-dark mr-md-auto pt-auto px-auto pt-md-5 px-md-5 text-left text-white overflow-hidden">
+            <div class="my-3 py-3">
+              <h2 class="display-5">The In-Depth</h2>
+              <p class="lead">
+                  This is a typical data usage static of an Android user
+                  <br>
+                  which is shared with Google
+                  <br>
+                  This is the data equivalent of a "free-lunch" for Google
+                  <br>
+                  as all of this data is pure and useful in some way
+                  <br>
+                  Antai brings in control by empowering users to control
+                  <br>
+                  exactly how pure this data is, before being shared with Google
+                  <br>
+                  It is interesting to note that there are around 25 
+                  <br>
+                  different catagories and as many "registered" services
+                  <br>
+                  More info <a href="https://support.google.com/accounts/answer/3024190?hl=en">here</a> 
+                  <br>
+                  <br>
+                  You are currently in the <a href="page2.html"> < </a> In-Depth Page <a href="page4.html"> > </a>
+                  <br>
+                  Please do let us know what you think by clicking <a href="https://forms.gle/ki7gm4aJs6Lsf2At9">here</a>
+              </p>
+            </div>
+          </div>  
+    </body>
+</html>

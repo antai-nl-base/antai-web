@@ -1,0 +1,2 @@
+10 April 2019
+* shave off stuff from product.html to make a feature.html - done as of 25apr19!
