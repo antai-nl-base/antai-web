@@ -1,0 +1,62 @@
+WARNING: DO NOT DELETE THIS UNLESS RESP BRANCH HAS BEEN MERGED!!! 
+AUTH: ATHUL MURALIDHAR 
+
+General
+
+*  Make it mobile compatible 
+
+home page/index.html
+
+*  add more content to the index.html page. Expand on "get to know us"
+   on the "home" tab.
+*  change the name from "the antai project" to just "antai"
+*  Maybe even start with a question? do you think your data is in your 
+   control sort of, then expand on that. You get both inputs and engagement
+*  Add the noise tutorial, proposed in git branch index-change-29apr19
+*  make a "div" space for a temp logo, so that designing can be done asap
+*  change the footer to reflect the current situation
+
+Roadmap/vision page
+
+*  Add this page to showcase where antai is headed, what its founding 
+   mission is. 
+*  publish the code of conduct, and other stuff to impress upon people to
+   join the cause of antai.
+*  Maybe even show the general responses, for the questions asked in the
+   "home" page.
+
+features.html
+
+*  change the name in the header
+*  "completely client-sided" as sk said
+*  footer change as mentioned earlier
+	
+	look and feel section/ antai stage section
+	
+	*  Add a header and a footer on every page of the stafe
+	*  make the navigation "angle brackets" more apparent for their
+	   purpose.
+	*  add antai logo/ temp logo on all pages of the "look and feel"
+	   mobile design 
+	*  figure how users can move from page-3 "in-depth" to the tips
+	   page, and make it seemless.
+	* make more easier comparision like, 1kb = "general size of a 
+          whatsapp msg" or something similar and for 1mb = "typical picture
+          size"
+	* make the feedback section more apparent
+
+help us section/ antai reach-out section
+
+*  make a section where users can voice their opinions and concerns
+*  general user surveys for identifying user ailments, so that we can better   solve them!
+*  publish previous results, free of cost!
+*  publish the effectivness of antai's solution
+*  API documention for later 
+*  job postings etc.
+
+contact page/ contact.html
+
+* beef up the contact page
+* add header+footer as usual
+* add logo
+* beef it up more XD! 
