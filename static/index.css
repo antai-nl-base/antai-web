@@ -106,7 +106,7 @@ body {
 }
 
 /*
-custom font for features.html
+custom font for features.html/showcase.html
 */
 .feature-heading{
   color: rgb(53, 48, 48);
@@ -169,4 +169,10 @@ custom font for features.html
   width: 360px;
   height: 640px;
   background: white;
+}
+/* custom styling for help.html */
+
+.hr-custom {
+  color:  #fff;
+  width: 100px;
 }
