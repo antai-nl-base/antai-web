@@ -1,29 +1,37 @@
 <html>
-    <head>
-        <title>
-            Look and feel Antai-app
-        </title>
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- Custom styles for this template -->
-        <link href="./static/page1.css" rel="stylesheet">
-        <!--Anychart pie chart API-->
-        <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
-        <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>        
-        <!--JQuery+Popper+Bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            anychart.onDocumentReady(function() {
+
+<head>
+    <title>
+        Look and feel Antai-app
+    </title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="./static/page1.css" rel="stylesheet">
+    <!--Anychart pie chart API-->
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+    <!--JQuery+Popper+Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        anychart.onDocumentReady(function () {
 
             // set the data (in kilobytes)
             var data = [
-            {x: "App-1", value: 5.23},
-            {x: "App-2", value: 6.32},
-            {x: "App-3", value: 8.5},
-            {x: "App-4", value: 2.3},
-            {x: "App-5", value: 0.5},
+                { x: "App-1", value: 5.23 },
+                { x: "App-2", value: 6.32 },
+                { x: "App-3", value: 8.5 },
+                { x: "App-4", value: 2.3 },
+                { x: "App-5", value: 0.5 },
             ];
 
             // create the chart
@@ -38,17 +46,18 @@
             // display the chart in the container
             chart.container('piechart');
             chart.draw();
-            });     
-        </script>
-    </head> 
+        });     
+    </script>
+</head>
 
-    <body>
-        <!-- LEFT PANEL -->
-        <div class="bg-dark mr-md-auto pt-auto px-auto pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <p class="lead">
-                    <div class="inner">
-                    <img src="../temp_Logo.jpg" alt="Antai-tmp" style="border-radius:10px" width="26" height="28" class="masthead-brand ">
+<body>
+    <!-- LEFT PANEL -->
+    <div class="bg-dark mr-md-auto pt-auto px-auto pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <p class="lead">
+                <div class="inner">
+                    <img src="static/matrix.png" alt="Antai" style="border-radius:20px" width="26" height="28"
+                        class="masthead-brand ">
                     <h3 class="masthead-brand"> Antai</h3>
                     <a class="nav-link active" href="../showcase.html">Showcase</a>
                     <br>
@@ -56,27 +65,30 @@
                     <br>
                     <br>
                     <a class="btn btn-outline-secondary btn-lg" href="page2.html">Prev</a>
-                    </div>
-                </p>
-            </div>
+                </div>
+            </p>
         </div>
-        <!-- CENTRAL PANEL -->
-        <div class="overflow-hidden p-auto p-md-auto m-md-auto bg-light smartphone">
-            <div id="piechart"></div>
+    </div>
+    <!-- CENTRAL PANEL -->
+    <div class="overflow-hidden p-auto p-md-auto m-md-auto bg-light smartphone">
+        <div id="piechart"></div>
+    </div>
+    <!-- RIGHT PANEL -->
+    <div class="bg-dark mr-md-auto pt-auto px-auto pt-md-5 px-md-5 text-left text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">The In-Depth</h2>
+            <p class="lead">
+                Arbitrary apps
+                <br>
+                <br>
+                You are currently in the <a href="page2.html">
+                    < </a> In-Depth Page <a href="page4.html"> >
+                </a>
+                <br>
+                Please do let us know what you think by clicking <a href="https://forms.gle/ki7gm4aJs6Lsf2At9">here</a>
+            </p>
         </div>
-        <!-- RIGHT PANEL -->
-        <div class="bg-dark mr-md-auto pt-auto px-auto pt-md-5 px-md-5 text-left text-white overflow-hidden">
-            <div class="my-3 py-3">
-              <h2 class="display-5">The In-Depth</h2>
-              <p class="lead">
-                  Arbitrary apps
-                  <br>
-                  <br>
-                  You are currently in the <a href="page2.html"> < </a> In-Depth Page <a href="page4.html"> > </a>
-                  <br>
-                  Please do let us know what you think by clicking <a href="https://forms.gle/ki7gm4aJs6Lsf2At9">here</a>
-              </p>
-            </div>
-          </div>  
-    </body>
+    </div>
+</body>
+
 </html>
