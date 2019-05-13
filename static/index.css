@@ -173,6 +173,5 @@ custom font for features.html/showcase.html
 /* custom styling for help.html */
 
 .hr-custom {
-  color:  #fff;
-  width: 100px;
+  border-bottom: 1px solid #fff;
 }
